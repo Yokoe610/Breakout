@@ -248,6 +248,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &445828727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445828728}
+  m_Layer: 0
+  m_Name: Boxes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445828728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445828727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583719587
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,8 +787,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dedf609427eb0b945b598e1a2d96851a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxObjPrefab: {fileID: 0}
-  boxesObj: {fileID: 0}
+  boxObjPrefab: {fileID: 7553266062055465480, guid: 7d9c781dbd8afa64fa8f9f09bb3c3466, type: 3}
+  boxesObj: {fileID: 445828727}
 --- !u!1 &1863539291
 GameObject:
   m_ObjectHideFlags: 0
